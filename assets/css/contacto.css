@@ -77,24 +77,18 @@ a.nav-link:hover{
 .container-form .btn-enviar:hover{
     background: #590101;
 }
-.container-contacto{
-    h1{
-        z-index: 1;
-    position: absolute;
-    top: 390px;
-    color: rgb(14, 1, 1);
+.container-contacto h1{
+    background-image: url('../img/imgcontacto.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.container-contacto h1{
+    top: 300px;
+    color: rgb(0, 0, 0);
     font-size: 66px;
-    }
 }
-.imgcontacto{
-    background-position: center; 
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-size: 500px;
-    width: 1350px;
-    height: 400px;
-}
-.imgcontacto:hover{
-    transform: scale(1.05);
+.container-contacto:hover{
+    transform: scale(1.1);
 }
