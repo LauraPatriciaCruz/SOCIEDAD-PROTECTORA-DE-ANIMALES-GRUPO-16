@@ -5,7 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;    
+    min-height: 100vh;   
 }
 
 .center-text {
@@ -26,6 +26,12 @@ a.nav-link{
 
 h1 {
     text-align: center;
+    padding: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
 }
 
 main {
@@ -37,7 +43,7 @@ main {
   
   /* Estilos para cada tarjeta */
   .animal {
-    background-color: #f0f0f0;
+    background-color: #EFF3F4;
     padding: 20px;
     text-align: center;
   }
