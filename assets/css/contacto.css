@@ -1,39 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-a.nav-link{
-    color:black;
+a.nav-link {
+    color: black;
 }
-a.nav-link:hover{
+a.nav-link:hover {
     color: #B52C2A;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    -o-transition: all 0.3s; 
 }
-.container-form{
+
+.container-titulo {
+    display:block;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+
+}
+.container-form {
     width: 100%;
     max-width: 1100px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     margin-top: 90px;
 }
-.container-form h2{
+.container-form h2 {
     margin-bottom: 15px;
     font-size: 35px;
 }
-.container-form p{
+.container-form p {
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
-.container-form a{
+.container-form a {
     font-size: 17px;
     display: inline-block;
     text-decoration: none;
@@ -42,53 +51,63 @@ a.nav-link:hover{
     color: black;
     font-weight: 700;
 }
-.container-form a i{
-    color: rgb(255, 85, 85);
-    margin-right: 10x;
+.container-form a i {
+    color: #B62C2A;
+    margin-right: 10px;
+    letter-spacing: 2px;
 }
-.container-form form .campo, textarea{
+.container-form form .campo, textarea {
     width: 100%;
     padding: 15px 10px;
     font-size: 15px;
     border: 1px solid #dbdbdb;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border-radius: 3px;
     outline: 0px;
 }
-.container-form form textarea{
+.container-form form textarea {
     max-width: 530px;
     min-width: 530px;
     min-height: 140px;
     max-height: 150px;
 }
-.container-form .btn-enviar{
+.container-form .btn-enviar {
     padding: 8px 24px;
     font-size: 16px;
     border-radius: 5px;
     border: none;
     outline: 0px;
-    background-color: rgb(255, 0, 0);
+    background-color:#B62C2A;
     color: white;
     border-radius: 3px;
     cursor: pointer;
     transition: all 300px ease;
     margin-bottom: 5px;
 }
-.container-form .btn-enviar:hover{
-    background: #590101;
+.container-form .btn-enviar:hover {
+    background: black;
+    
 }
-.container-contacto h1{
+.container-contacto {
     background-image: url('../img/imgcontacto.jpg');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+    margin-top: 2px;
+    transition: transform 0.3s ease;
 }
-.container-contacto h1{
+.container-contacto h1 {
     top: 300px;
     color: rgb(0, 0, 0);
     font-size: 66px;
 }
-.container-contacto:hover{
+.container-contacto:hover {
     transform: scale(1.1);
 }
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
